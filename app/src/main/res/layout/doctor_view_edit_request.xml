@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <!-- Date -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/doctor_textView"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/doctor_textView2"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <!-- Time -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/doctor_textView3"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/doctor_textView4"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient"
+            android:id="@+id/doctor_textView5"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/doctor_textView6"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <!-- Location -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Contact"
+            android:id="@+id/doctor_textView7"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/doctor_textView8"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <!-- Reason -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason for appointment"
+            android:id="@+id/doctor_textView9"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/doctor_textView10"
+            android:textSize="15sp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Appointment"
+        android:background="@drawable/buttondesign"
+        android:layout_marginTop="15dp"
+        android:padding="7dp"
+        android:textColor="@color/WHITE"
+        android:id="@+id/doc_confirm_appt"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

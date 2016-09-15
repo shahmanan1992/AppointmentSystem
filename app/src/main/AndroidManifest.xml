@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.manan.appointment">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomepageAcivity" >
+        </activity>
+        <activity android:name=".User.bookAppointmentActivity" >
+        </activity>
+        <activity android:name=".User.viewAppointmentActivity" >
+        </activity>
+        <activity android:name=".User.editViewAppointment" >
+        </activity>
+        <activity android:name=".User.ProfileSettingsActivity" >
+        </activity>
+        <activity android:name=".User.profileUserActivity" >
+        </activity>
+        <activity android:name=".User.notificationActivity" >
+        </activity>
+        <activity android:name=".RegisterActivity" >
+        </activity>
+        <activity android:name=".User.emptyViewActivity" >
+        </activity>
+        <activity android:name=".Doctor.doctorActivity" >
+        </activity>
+        <activity android:name=".Doctor.editDoctorViewAppointment" >
+        </activity>
+        <activity android:name=".Doctor.viewDoctorAppointmentActivity" >
+        </activity>
+
+    </application>
+
+</manifest>

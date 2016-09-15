@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/labelcontentdesign"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/doc_firstView"
+            >
+
+            <TextView
+                android:id="@+id/image_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_action_schedule_appointment"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Edit Working"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/editWorking"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/image_schedule"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Days/Time"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/dayTime"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/editWorking"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/labelcontentdesign"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/doc_secondView"
+            >
+
+            <TextView
+                android:id="@+id/image_schedule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_action_view_appt"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="View"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/view"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/image_schedule1"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="appointments"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/viewappointment"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/view"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/labelcontentdesign"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/doc_thirdView"
+            >
+
+            <TextView
+                android:id="@+id/image_schedule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_action_settings"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Profile"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/doc_profile"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/image_schedule2"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="settings"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/doc_settings"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/doc_profile"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/labelcontentdesign"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/doc_fourthView"
+            >
+
+            <TextView
+                android:id="@+id/image_schedule3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_action_schedule_appointment"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Get"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/get"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/image_schedule3"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Reports"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/reports"
+                android:textColor="@color/WHITE"
+                android:layout_below="@+id/get"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

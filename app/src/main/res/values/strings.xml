@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Appointment System</string>
+    <string name="email">Email Address</string>
+    <string name="pwd">Password</string>
+    <string name="book_appt">Book Appointment</string>
+    <string name="view_appt">Appointments</string>
+    <string name="editAppointment">Edit</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full Name</string>
+    <string name="confirmpwd">Confirm Password</string>
+</resources>
